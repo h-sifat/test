@@ -1,5 +1,5 @@
 {
-  "name": "testpkg3",
+  "name": "uselesslibrary1",
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -13,8 +13,16 @@
   "author": "Sifat Hossain",
   "license": "ISC",
   "devDependencies": {
-    "handy-types": "^1.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.1.0",
+    "prettier": "^2.4.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
     "webpack": "^5.59.1",
     "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "handy-types": "^1.1.0"
   }
 }

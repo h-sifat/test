@@ -4,7 +4,7 @@ const messages = {
   info: "Server load 70%",
 };
 
-const messageNames = Object.keys(messages);
+const messageNames = Object.keys(messages) as Array<keyof typeof messages>;
 
 export default function getMessage() {
   return messages[

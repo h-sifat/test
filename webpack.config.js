@@ -1,8 +1,22 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index.ts",
   mode: "production",
+  resolve: {
+    extensions: [".ts", ".js"],
+  },
+  module: {
+    rules: [
+      {
+        test: /\.ts$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "ts-loader",
+        },
+      },
+    ],
+  },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
@@ -12,11 +26,5 @@ module.exports = {
       type: "umd",
     },
   },
-  externals: {
-    "handy-types": {
-      commonjs: "handy-types",
-      commonjs2: "handy-types",
-      amd: "handy-types",
-    },
-  },
+  externals: ["handy-types"],
 };
