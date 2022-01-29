@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/shit/codeNcry/Backend/projects/test_pkg_1/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/23a7cf4e/
+Test Package	README.md	/^# Test Package$/;"	c
+check	src/index.ts	/^export function check(name: string, age: number) {$/;"	f
+default	dist/index.js	/^        r.default = function (r) {$/;"	f
+error	src/messages.ts	/^  error: "Sth bad happened!",$/;"	m
+exports	webpack.config.js	/^module.exports = {$/;"	o
+function	dist/index.js	/^          return function (t) {$/;"	f
+function	dist/index.js	/^        r.default = function (r) {$/;"	f
+function	dist/index.js	/^!(function (r, t) {$/;"	f
+function	dist/index.js	/^})(this, function () {$/;"	f
+getMessage	src/index.ts	/^import getMessage from ".\/messages";$/;"	I
+getMessage	src/messages.ts	/^export default function getMessage() {$/;"	f
+if	src/index.ts	/^  if (!types.natural_num(age))$/;"	m
+if	src/index.ts	/^  if (!types.ne_string(name))$/;"	m
+info	src/messages.ts	/^  info: "Server load 70%",$/;"	m
+library	webpack.config.js	/^    library: {$/;"	o
+messageNames	src/messages.ts	/^const messageNames = Object.keys(messages) as Array<keyof typeof messages>;$/;"	C
+messages	src/messages.ts	/^const messages = {$/;"	C
+module	webpack.config.js	/^  module: {$/;"	o
+output	webpack.config.js	/^  output: {$/;"	o
+printMessage	src/index.ts	/^export function printMessage() {$/;"	f
+resolve	webpack.config.js	/^  resolve: {$/;"	o
+use	webpack.config.js	/^        use: {$/;"	o
+warning	src/messages.ts	/^  warning: "Watch out",$/;"	m
