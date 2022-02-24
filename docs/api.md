@@ -35,7 +35,7 @@ a </br>
 a </br>
 a </br>
 
-## heading 2
+## Heading 2
 
 a </br>
 a </br>
